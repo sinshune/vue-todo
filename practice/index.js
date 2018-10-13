@@ -1,3 +1,5 @@
 // import './instance'
 
-import './lifeCycle'
+// import './lifeCycle'
+
+import './data-binding'
