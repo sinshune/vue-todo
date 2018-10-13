@@ -11,4 +11,7 @@
 // import './computed/main.js'
 
 // 指令
-import './directive'
+// import './directive'
+
+// 组件开发
+import './component'

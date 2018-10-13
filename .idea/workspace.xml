@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a95526d3-2dd8-49a7-8ac3-61511c0c7148" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/practice/directive/app.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/practice/directive/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/practice/component/app.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/practice/component/extendFromSon.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/practice/component/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/practice/component/son.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/practice/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/practice/index.js" afterDir="false" />
     </list>
@@ -35,13 +37,13 @@
           <entry key="babelrc" value="1" />
           <entry key="css" value="9" />
           <entry key="html" value="1" />
-          <entry key="js" value="31" />
+          <entry key="js" value="33" />
           <entry key="json" value="3" />
           <entry key="jsx" value="1" />
           <entry key="rnc" value="1" />
           <entry key="styl" value="3" />
           <entry key="svg" value="1" />
-          <entry key="vue" value="15" />
+          <entry key="vue" value="18" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
@@ -50,11 +52,11 @@
           <entry key="HTML" value="1" />
           <entry key="JSON" value="4" />
           <entry key="JSX Harmony" value="1" />
-          <entry key="JavaScript" value="31" />
+          <entry key="JavaScript" value="33" />
           <entry key="RNG Compact" value="1" />
           <entry key="SVG" value="1" />
           <entry key="Stylus" value="3" />
-          <entry key="Vue.js" value="15" />
+          <entry key="Vue.js" value="18" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
@@ -63,11 +65,11 @@
           <entry key="css" value="36" />
           <entry key="gitignore" value="6" />
           <entry key="html" value="14" />
-          <entry key="js" value="5653" />
+          <entry key="js" value="5857" />
           <entry key="json" value="380" />
           <entry key="jsx" value="124" />
           <entry key="styl" value="87" />
-          <entry key="vue" value="5640" />
+          <entry key="vue" value="6413" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
@@ -76,10 +78,10 @@
           <entry key="HTML" value="14" />
           <entry key="JSON" value="418" />
           <entry key="JSX Harmony" value="124" />
-          <entry key="JavaScript" value="5653" />
+          <entry key="JavaScript" value="5857" />
           <entry key="PLAIN_TEXT" value="6" />
           <entry key="Stylus" value="87" />
-          <entry key="Vue.js" value="5640" />
+          <entry key="Vue.js" value="6413" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.vcs.git.usages">
@@ -93,46 +95,49 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/client/app.vue">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="25">
-              <caret line="30" column="20" selection-start-line="30" selection-start-column="20" selection-end-line="30" selection-end-column="20" />
-              <folding>
-                <element signature="e#150#190#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/practice/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="12" column="5" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
+            <state relative-caret-position="375">
+              <caret line="16" column="19" selection-start-line="16" selection-start-column="19" selection-end-line="16" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/practice/component/index.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="125">
+              <caret line="5" column="46" selection-start-line="5" selection-start-column="46" selection-end-line="5" selection-end-column="46" />
               <folding>
-                <element signature="n#!!doc" expanded="true" />
+                <element signature="e#0#21#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/practice/directive/index.js">
+        <entry file="file://$PROJECT_DIR$/practice/component/app.vue">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="25">
-              <caret line="1" column="26" selection-start-line="1" selection-start-column="26" selection-end-line="1" selection-end-column="26" />
+            <state relative-caret-position="275">
+              <caret line="14" column="13" lean-forward="true" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/practice/component/son.vue">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="125">
+              <caret line="11" column="8" lean-forward="true" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="8" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/practice/directive/app.vue">
+        <entry file="file://$PROJECT_DIR$/practice/component/extendFromSon.vue">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="435">
-              <caret line="33" column="11" selection-start-line="32" selection-start-column="8" selection-end-line="33" selection-end-column="11" />
-              <folding>
-                <element signature="e#376#638#0" />
-              </folding>
+            <state relative-caret-position="300">
+              <caret line="12" column="11" selection-start-line="12" selection-start-column="11" selection-end-line="12" selection-end-column="11" />
             </state>
           </provider>
         </entry>
@@ -216,8 +221,13 @@
         <option value="$PROJECT_DIR$/practice/computed/main.js" />
         <option value="$PROJECT_DIR$/practice/computed/app.vue" />
         <option value="$PROJECT_DIR$/practice/directive/index.js" />
-        <option value="$PROJECT_DIR$/practice/index.js" />
         <option value="$PROJECT_DIR$/practice/directive/app.vue" />
+        <option value="$PROJECT_DIR$/practice/component/define.js" />
+        <option value="$PROJECT_DIR$/practice/index.js" />
+        <option value="$PROJECT_DIR$/practice/component/index.js" />
+        <option value="$PROJECT_DIR$/practice/component/app.vue" />
+        <option value="$PROJECT_DIR$/practice/component/son.vue" />
+        <option value="$PROJECT_DIR$/practice/component/extendFromSon.vue" />
       </list>
     </option>
   </component>
@@ -267,13 +277,7 @@
               <item name="vue-todo" type="b2602c69:ProjectViewProjectNode" />
               <item name="vue-todo" type="462c0819:PsiDirectoryNode" />
               <item name="practice" type="462c0819:PsiDirectoryNode" />
-              <item name="directive" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="vue-todo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="vue-todo" type="462c0819:PsiDirectoryNode" />
-              <item name="practice" type="462c0819:PsiDirectoryNode" />
-              <item name="lifeCycle" type="462c0819:PsiDirectoryNode" />
+              <item name="component" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -359,12 +363,12 @@
       <workItem from="1539174573242" duration="7737000" />
       <workItem from="1539264236388" duration="4338000" />
       <workItem from="1539303806314" duration="7355000" />
-      <workItem from="1539393953171" duration="20074000" />
+      <workItem from="1539393953171" duration="24053000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="52311000" />
+    <option name="totallyTimeSpent" value="56290000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -376,7 +380,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1295" height="695" extended-state="7" />
+    <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2406672" />
@@ -639,16 +643,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/practice/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="12" column="5" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/practice/directive/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="25">
@@ -658,11 +652,49 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/practice/directive/app.vue">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="33" column="11" selection-start-line="32" selection-start-column="8" selection-end-line="33" selection-end-column="11" />
+        <state relative-caret-position="117">
+          <caret line="17" column="8" lean-forward="true" selection-start-line="17" selection-start-column="8" selection-end-line="18" selection-end-column="8" />
           <folding>
             <element signature="e#376#638#0" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/practice/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="16" column="19" selection-start-line="16" selection-start-column="19" selection-end-line="16" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/practice/component/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="5" column="46" selection-start-line="5" selection-start-column="46" selection-end-line="5" selection-end-column="46" />
+          <folding>
+            <element signature="e#0#21#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/practice/component/app.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="14" column="13" lean-forward="true" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/practice/component/son.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="11" column="8" lean-forward="true" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/practice/component/extendFromSon.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="12" column="11" selection-start-line="12" selection-start-column="11" selection-end-line="12" selection-end-column="11" />
         </state>
       </provider>
     </entry>
