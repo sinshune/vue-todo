@@ -14,4 +14,10 @@
 // import './directive'
 
 // 组件开发
-import './component'
+// import './component'
+
+// vue特性
+// import './feature'
+
+// vue的render方法
+import './render/render.js'
