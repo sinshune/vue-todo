@@ -9,13 +9,15 @@
     <!-- 路由外链 end -->
     <Footer></Footer>
 
-    {{count}}
+    {{num}}
+    {{fullName}}
   </div>
 </template>
 
 <script>
   import Header from './layout/header.vue'
   import Footer from './layout/footer.vue'
+  import { mapState, mapGetters } from 'vuex'
 
   export default {
     name: "app",
@@ -31,7 +33,7 @@
     },
 
     mounted () {
-      // console.log(this.$store);
+      console.log(this.$store);
       let i = 1;
       setInterval(() => {
         this.$store.commit('updateCount', i++);
@@ -39,9 +41,13 @@
     },
 
     computed: {
-      count () {
-        return this.$store.state.count;
-      }
+      // ...mapState(['count']),
+      ...mapState({
+        num: (state) => state.count
+      }),
+      ...mapGetters({
+        fullName: 'fullName'
+      })
     }
   }
 </script>
