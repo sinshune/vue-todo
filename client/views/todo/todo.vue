@@ -79,6 +79,20 @@
           return this.todos.filter(todo => !todo.completed);
         }
       }
+    },
+
+    // 组件内的导航钩子
+    beforeRouteEnter (to, from, next) {
+      console.log('beforeRouteEnter');
+      next();
+    },
+    beforeRouteUpdate (to, from, next) {
+      console.log('beforeRouteUpdate');
+      next();
+    },
+    beforeRouteLeave (to, from, next) {
+      console.log('beforeRouteLeave');
+      next();
     }
   }
 </script>

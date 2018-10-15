@@ -2,7 +2,11 @@
   <div id="app">
     <div id="cover"></div>
     <Header></Header>
-    <Todo></Todo>
+
+    <router-link to="/app">主页</router-link> <router-link to="/login">登录</router-link>
+    <!-- 路由外链 -->
+    <router-view></router-view>
+    <!-- 路由外链 end -->
     <Footer></Footer>
   </div>
 </template>
@@ -10,7 +14,6 @@
 <script>
   import Header from './layout/header.vue'
   import Footer from './layout/footer.vue'
-  import Todo from './views/todo/todo.vue'
 
   export default {
     name: "app",
@@ -22,8 +25,7 @@
 
     components: {
       Header,
-      Footer,
-      Todo
+      Footer
     }
   }
 </script>
