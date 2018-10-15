@@ -17,10 +17,10 @@ export default [
     meta: { // meta用于保存路由中的一些信息
       title: '主页'
     },
-    beforeEnter (to, from, next) {
-      console.log('beforeEnter, 在beforeEach和beforeResolve之间执行');
-      next();
-    }
+    // beforeEnter (to, from, next) {
+    //   console.log('beforeEnter, 在beforeEach和beforeResolve之间执行');
+    //   next();
+    // }
   },
   {
     name: 'login',

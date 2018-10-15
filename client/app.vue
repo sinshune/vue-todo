@@ -8,6 +8,8 @@
     <router-view></router-view>
     <!-- 路由外链 end -->
     <Footer></Footer>
+
+    {{count}}
   </div>
 </template>
 
@@ -26,6 +28,20 @@
     components: {
       Header,
       Footer
+    },
+
+    mounted () {
+      // console.log(this.$store);
+      let i = 1;
+      setInterval(() => {
+        this.$store.commit('updateCount', i++);
+      }, 1000)
+    },
+
+    computed: {
+      count () {
+        return this.$store.state.count;
+      }
     }
   }
 </script>
