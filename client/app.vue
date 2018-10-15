@@ -9,21 +9,24 @@
     <!-- 路由外链 end -->
     <Footer></Footer>
 
-    {{num}}
-    {{fullName}}
+    <!--<button @click="changeName">改名</button>-->
+    <button @click="increment">+1</button>
+    {{count}} {{fullName}}
   </div>
 </template>
 
 <script>
   import Header from './layout/header.vue'
   import Footer from './layout/footer.vue'
-  import { mapState, mapGetters } from 'vuex'
+
+  import { mapState, mapGetters, mapMutations, mapActions } from 'vuex'
 
   export default {
     name: "app",
 
     data () {
       return {
+        i: 1
       }
     },
 
@@ -32,21 +35,26 @@
       Footer
     },
 
-    mounted () {
-      console.log(this.$store);
-      let i = 1;
-      setInterval(() => {
-        this.$store.commit('updateCount', i++);
-      }, 1000)
+    computed: {
+      ...mapState({
+        count: (state) => state.count
+      }),
+      ...mapGetters(['fullName'])
     },
 
-    computed: {
-      // ...mapState(['count']),
-      ...mapState({
-        num: (state) => state.count
-      }),
-      ...mapGetters({
-        fullName: 'fullName'
+    methods: {
+      ...mapMutations(['updateCount']),
+      ...mapActions(['updateCountAsync']),
+
+      increment () {
+        this.updateCount(this.i++);
+      }
+    },
+
+    mounted () {
+      this.updateCountAsync({
+        num: this.i,
+        time: 1000
       })
     }
   }
