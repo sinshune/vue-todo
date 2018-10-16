@@ -4,6 +4,7 @@ const HtmlWebpackPlugin = require('html-webpack-plugin')
 const ExtractPlugin = require('extract-text-webpack-plugin')
 const merge = require('webpack-merge') // 能够很好的合并不同的webpack配置
 const baseConfig = require('./webpack.config.base')
+const VueClientPlugin = require('vue-server-renderer/client-plugin')
 
 const isDev = process.env.NODE_ENV === 'development'
 let config
@@ -21,7 +22,8 @@ const defaultPlugins = [
       NODE_ENV: isDev ? '"development"' : '"production"'
     }
   }),
-  new HtmlWebpackPlugin()
+  new HtmlWebpackPlugin(),
+  new VueClientPlugin()
 ]
 
 if (isDev) {
