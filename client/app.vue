@@ -11,7 +11,15 @@
 
     <!--<button @click="changeName">改名</button>-->
     <button @click="increment">+1</button>
-    {{count}} {{fullName}}
+    <p>
+      {{count}} {{fullName}}
+    </p>
+    <p>
+      {{aText}}<br><br>
+      joinB: {{joinB}}<br><br>
+      aJoinB: {{aJoinB}}<br><br>
+      numB: {{numB}}
+    </p>
   </div>
 </template>
 
@@ -35,16 +43,26 @@
       Footer
     },
 
-    computed: {
+      computed: {
       ...mapState({
-        count: (state) => state.count
+        count: (state) => state.count,
+        aText: (state) => state.a.text,
+        numB: (state) => state.b.num
       }),
-      ...mapGetters(['fullName'])
+      ...mapGetters({
+        fullName: 'fullName',
+        joinB: 'b/joinB',
+        aJoinB: 'b/aJoinB'
+      }),
     },
 
     methods: {
-      ...mapMutations(['updateCount']),
-      ...mapActions(['updateCountAsync']),
+      ...mapMutations(['updateCount', 'a/joinA']),
+      ...mapActions({
+        updateCountAsync: 'updateCountAsync',
+        add: 'b/add',
+        fromA: 'b/fromA'
+      }),
 
       increment () {
         this.updateCount(this.i++);
@@ -55,7 +73,18 @@
       this.updateCountAsync({
         num: this.i,
         time: 1000
-      })
+      });
+
+      this['a/joinA']();
+
+      console.log(this.aJoinB);
+
+      this.add({
+        num: this.i,
+        time: 1000
+      });
+
+      this.fromA()
     }
   }
 </script>
