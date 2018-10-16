@@ -1,5 +1,5 @@
 export default {
   fullName (state) {
-    return `Name: ${state.firstName} ${state.lastName}`;
+    return `Name: ${state.firstName} 341 ${state.lastName}`;
   }
 }
