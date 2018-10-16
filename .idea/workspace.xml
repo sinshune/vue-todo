@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="a95526d3-2dd8-49a7-8ac3-61511c0c7148" name="Default Changelist" comment="">
       <change afterPath="$PROJECT_DIR$/build/webpack.config.server.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/client-entry.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/client/create-app.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/client/server-entry.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/favicon.ico" afterDir="false" />
@@ -55,7 +56,7 @@
           <entry key="css" value="9" />
           <entry key="ejs" value="2" />
           <entry key="html" value="1" />
-          <entry key="js" value="88" />
+          <entry key="js" value="90" />
           <entry key="json" value="10" />
           <entry key="jsx" value="1" />
           <entry key="rnc" value="1" />
@@ -71,7 +72,7 @@
           <entry key="HTML" value="1" />
           <entry key="JSON" value="13" />
           <entry key="JSX Harmony" value="1" />
-          <entry key="JavaScript" value="88" />
+          <entry key="JavaScript" value="90" />
           <entry key="RNG Compact" value="1" />
           <entry key="SVG" value="1" />
           <entry key="Stylus" value="3" />
@@ -134,27 +135,6 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/client/create-app.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="308">
-              <caret line="23" column="29" selection-start-line="23" selection-start-column="29" selection-end-line="23" selection-end-column="29" />
-              <folding>
-                <element signature="e#0#21#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/client/server-entry.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-27">
-              <caret column="7" selection-start-column="7" selection-end-column="7" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/build/webpack.config.base.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="150">
@@ -163,11 +143,28 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/package.json">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="156">
               <caret line="28" column="24" selection-start-line="28" selection-start-column="24" selection-end-line="28" selection-end-column="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/client/client-entry.js">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/client/create-app.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="350">
+              <caret line="23" column="23" lean-forward="true" selection-start-line="23" selection-start-column="23" selection-end-line="23" selection-end-column="23" />
+              <folding>
+                <element signature="e#0#21#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -339,19 +336,20 @@
             <path>
               <item name="vue-todo" type="b2602c69:ProjectViewProjectNode" />
               <item name="vue-todo" type="462c0819:PsiDirectoryNode" />
-              <item name="server" type="462c0819:PsiDirectoryNode" />
+              <item name="client" type="462c0819:PsiDirectoryNode" />
+              <item name="layout" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="vue-todo" type="b2602c69:ProjectViewProjectNode" />
               <item name="vue-todo" type="462c0819:PsiDirectoryNode" />
-              <item name="server" type="462c0819:PsiDirectoryNode" />
-              <item name="db" type="462c0819:PsiDirectoryNode" />
+              <item name="client" type="462c0819:PsiDirectoryNode" />
+              <item name="router" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="vue-todo" type="b2602c69:ProjectViewProjectNode" />
               <item name="vue-todo" type="462c0819:PsiDirectoryNode" />
-              <item name="server" type="462c0819:PsiDirectoryNode" />
-              <item name="routers" type="462c0819:PsiDirectoryNode" />
+              <item name="client" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -371,6 +369,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\study\vue-todo\client" />
       <recent name="D:\study\vue-todo" />
       <recent name="D:\study\vue-todo\src\assets" />
     </key>
@@ -446,7 +445,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="107692000" />
+    <option name="totallyTimeSpent" value="107969000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -459,7 +458,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20571883" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -514,13 +512,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/practice/data-binding/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="7" column="3" lean-forward="true" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/practice/data-binding/app.vue">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
@@ -799,16 +790,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/client/create-app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="23" column="29" selection-start-line="23" selection-start-column="29" selection-end-line="23" selection-end-column="29" />
-          <folding>
-            <element signature="e#0#21#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/client/server-entry.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-27">
@@ -855,6 +836,19 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="156">
           <caret line="28" column="24" selection-start-line="28" selection-start-column="24" selection-end-line="28" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/client-entry.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/create-app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="350">
+          <caret line="23" column="23" lean-forward="true" selection-start-line="23" selection-start-column="23" selection-end-line="23" selection-end-column="23" />
+          <folding>
+            <element signature="e#0#21#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
