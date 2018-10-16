@@ -13,54 +13,7 @@ export default () => {
     state,
     getters,
     mutations,
-    actions,
-
-    modules: {
-      a: {
-        namespaced: true,
-        state: {
-          text: 'a模块'
-        },
-        mutations: {
-          joinA (state) {
-            console.log(state.text);
-          }
-        }
-      },
-      b: {
-        namespaced: true,
-        state: {
-          text: 'b模块',
-          num: 1
-        },
-        getters: {
-          joinB (state) {
-            return state.text + 'b plus';
-          },
-
-          aJoinB (state, getters, rootState) {
-            return rootState.a.text + ' ' + state.text;
-          }
-        },
-        mutations: {
-          add (state, data) {
-            state.num = data;
-          }
-        },
-        actions: {
-          add ( {state, commit, rootState}, data ) {
-            setInterval(() => {
-              commit('add', data.num++);
-              commit('updateCount', data.num++, { root: true }) // 修改的是父级的state.count
-            }, data.time);
-          },
-
-          fromA ( { commit } ) {
-            commit('a/joinA', undefined, {root: true});
-          }
-        }
-      }
-    }
+    actions
   });
 
   if (module.hot) {
